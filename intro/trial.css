@@ -1,0 +1,21 @@
+h1, p {
+    font-size: 50px;
+}
+
+img {
+    max-width: 100%;
+}
+
+video {
+    max-width: 100%;
+}
+
+body{
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(4, 4, 93);
+    height: 100px;
+    color: white;
+}
