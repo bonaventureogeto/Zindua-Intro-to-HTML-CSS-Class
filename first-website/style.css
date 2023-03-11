@@ -10,3 +10,33 @@ body {
 header {
     color: rgb(82, 67, 67);
 }
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  nav li {
+    margin: 0;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  nav a.active {
+    background-color: #555;
+  }
+  
