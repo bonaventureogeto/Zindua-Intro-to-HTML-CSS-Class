@@ -42,50 +42,74 @@ third comment
 
 // functions
 
-function greet(name){
-    if (name == "Brian"){
-        console.log("Hello, " + name + "!");
-    } else {
-        console.log(name + ", You're an imposter");
+// function greet(name){
+//     if (name == "Brian"){
+//         console.log("Hello, " + name + "!");
+//     } else {
+//         console.log(name + ", You're an imposter");
+//     }
+// }
+
+// greet("Ken"); // calling the function
+
+// function nairobi(){
+//     console.log("Welcome to the City that never sleeps!");
+// }
+
+// nairobi();
+
+// function add(num1, num2){
+//     console.log(num1 + num2);
+// }
+
+// add(20, 80);
+
+
+// function kuccps(points){
+//     if(points >= 80) {
+//         console.log("You have been admitted to study Medicine at UoN");
+//     } else if (points >= 74 && points <= 79) {
+//         console.log("You have been admitted to study Law at UoN");
+//     } else if (points >= 70 && points <= 73) {
+//         console.log("You have been admitted to study Biochemistry at UoN");
+//     } else {
+//         console.log("You have been admitted to study Engineering!")
+//     }
+// }
+
+// kuccps(60);
+
+
+// function vote(age){
+//     if (age >= 18 && age <= 100) {
+//         console.log("You are eligible to vote");
+//     } else {
+//         console.log("You are not eligible to vote");
+//     }
+// }
+
+// vote(10);
+
+// objects
+
+let kenya = {
+    capital: "Nairobi",
+    continent: "Africa",
+    region: "Eastern Africa",
+    culture: "Corruption",
+    stable_food: "Water",
+    motto: function(){
+        console.log("Harambee!");
     }
-}
+};
 
-greet("Ken"); // calling the function
+kenya.capital = "Juja"
 
-function nairobi(){
-    console.log("Welcome to the City that never sleeps!");
-}
-
-nairobi();
-
-function add(num1, num2){
-    console.log(num1 + num2);
-}
-
-add(20, 80);
+delete kenya.motto
 
 
-function kuccps(points){
-    if(points >= 80) {
-        console.log("You have been admitted to study Medicine at UoN");
-    } else if (points >= 74 && points <= 79) {
-        console.log("You have been admitted to study Law at UoN");
-    } else if (points >= 70 && points <= 73) {
-        console.log("You have been admitted to study Biochemistry at UoN");
-    } else {
-        console.log("You have been admitted to study Engineering!")
-    }
-}
-
-kuccps(60);
-
-
-function vote(age){
-    if (age >= 18 && age <= 100) {
-        console.log("You are eligible to vote");
-    } else {
-        console.log("You are not eligible to vote");
-    }
-}
-
-vote(10);
+console.log(kenya.capital);
+console.log(kenya.continent);
+console.log(kenya.region);
+console.log(kenya.culture);
+console.log(kenya.motto());
